@@ -1,0 +1,10 @@
+language: python
+python:
+    - "3.6"
+
+install:
+    - "sudo apt-get update -qq"
+
+script:
+    - "./test.sh"
+
